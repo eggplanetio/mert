@@ -1,1 +1,5 @@
-osascript -il JavaScript
+Usage
+
+```
+mertrc start [projectname]
+```

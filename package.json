@@ -1,6 +1,6 @@
 {
   "name": "mert",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^2.9.0",
-    "jxa": "git@github.com:eggplanetio/jxa.git",
+    "jxa": "eggplanetio/jxa#apply-support",
     "yamljs": "^0.2.7"
   }
 }
