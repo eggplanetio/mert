@@ -1,5 +1,5 @@
 Usage
 
 ```
-mertrc start [projectname]
+mert start [projectname]
 ```
