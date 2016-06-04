@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 
-var program = require('commander');
+const program = require('commander');
+const fs = require('fs');
+
+const package = JSON.parse(fs.readFileSync('package.json'));
 
 program
-  .version('0.0.3')
+  .version(package.version)
   .option('new', 'Create new mert project')
   .option('start [projectname]', 'Start mert project')
   .parse(process.argv);
