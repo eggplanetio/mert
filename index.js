@@ -3,7 +3,7 @@
 var program = require('commander');
 
 program
-  .version('0.0.1')
+  .version('0.0.3')
   .option('new', 'Create new mert project')
   .option('start [projectname]', 'Start mert project')
   .parse(process.argv);
