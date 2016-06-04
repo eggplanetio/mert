@@ -1,14 +1,11 @@
-root: /Users/juancaldera/
+root: "~"
 layout:
-  - 
-    - echo one
-    - cd Projects/Akami && git status && echo "two"
-    - echo three
-  - 
-    - echo 2.1
-    - echo 2.2
-  - 
-    - echo 3.1
-    - echo 3.2
-    - echo 3.3
-    - echo 3.4
+  -
+    - echo "Row 1, Pane 1"
+  -
+    - echo "Row 2, Pane 1"
+    - echo "Row 2, Pane 2"
+  -
+    - echo "Row 3, Pane 1"
+    - echo "Row 3, Pane 2"
+    - echo "Row 3, Pane 3"
