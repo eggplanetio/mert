@@ -8,7 +8,7 @@ const package = JSON.parse(fs.readFileSync('package.json'));
 program
   .version(package.version)
   .option('new', 'Create new mert project')
-  .option('start [projectname]', 'Start mert project')
+  .option('start [projectname || path to mertrc file]', 'Start mert project')
   .parse(process.argv);
 
 if (program.start) {
