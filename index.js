@@ -7,9 +7,15 @@ const package = JSON.parse(fs.readFileSync('package.json'));
 
 program
   .version(package.version)
-  .option('new', 'Create new mert project')
-  .option('start [projectname || path to mertrc file]', 'Start mert project')
+  .option('init [global | local (default) ]', 'Create new .mertrc file locally or in home dir')
+  .option('start [projectname | path to mertrc file]', 'Start mert project')
   .parse(process.argv);
+
+if (program.init) {
+  const initializer = require('./lib/initializer.js');
+  console.log(`Creating new mertrc file ${ (program.init === 'global') ? 'in home dir' : '' }`)
+  return initializer.init(program.init);
+}
 
 if (program.start) {
   const launcher = require('./lib/launcher.js')
@@ -19,6 +25,6 @@ if (program.start) {
   console.log(`Starting ${ projectName || 'local' } project`);
 
   const config = configLoader.load(projectName);
-  launcher.launch(config)
+  return launcher.launch(config)
 }
 
