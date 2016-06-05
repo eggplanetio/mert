@@ -87,6 +87,6 @@ Released under the MIT License.
 
 Questions?
 ----------
-| ![twitter/brianmgonzalez](http://gravatar.com/avatar/f6363fe1d9aadb1c3f07ba7867f0e854?s=70](http://twitter.com/brianmgonzalez "Follow @brianmgonzalez on Twitter") |
-|---|
-| [Brian Gonzalez](http://briangonzalez.org) |
+Brought to you by [eggplanet](http://www.eggplanet.io/).
+
+Reach out to [Brian Gonzalez](http://twitter.com/briangonzalez) for help.
