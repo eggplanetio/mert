@@ -27,5 +27,12 @@ Checkout the demo below:
 
 ![mert demo](https://cloud.githubusercontent.com/assets/659829/15803031/c0e7a9e0-2a7e-11e6-89f9-38704b28ecba.gif)
 
+License
+--------
+Released under the MIT License.
 
-
+Questions?
+----------
+| ![twitter/brianmgonzalez](http://gravatar.com/avatar/f6363fe1d9aadb1c3f07ba7867f0e854?s=70](http://twitter.com/brianmgonzalez "Follow @brianmgonzalez on Twitter") |
+|---|
+| [Brian Gonzalez](http://briangonzalez.org) |
