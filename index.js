@@ -2,7 +2,7 @@
 
 const program = require('commander');
 const fs = require('fs');
-
+const clc = require('cli-color');
 const package = JSON.parse(fs.readFileSync('package.json'));
 
 program
@@ -13,7 +13,6 @@ program
 
 if (program.init) {
   const initializer = require('./lib/initializer.js');
-  console.log(`Creating new mertrc file ${ (program.init === 'global') ? 'in home dir' : '' }`)
   return initializer.init(program.init);
 }
 
@@ -22,7 +21,8 @@ if (program.start) {
   const configLoader = require('./lib/config-loader.js')
 
   var projectName = program.start === true ? null : program.start;
-  console.log(`Starting ${ projectName || 'local' } project`);
+  console.log(clc.green(`Starting ${ projectName || 'local' } project.`));
+  console.log(clc.green(`Please wait until all panes have intialized!`));
 
   const config = configLoader.load(projectName);
   return launcher.launch(config)

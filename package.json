@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cli-color": "^1.1.0",
     "commander": "^2.9.0",
     "jxa": "eggplanetio/jxa#apply-support",
     "yamljs": "^0.2.7"
