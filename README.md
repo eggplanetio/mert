@@ -77,6 +77,15 @@ would result in the following iTerm window, each command running in `~/code/foo`
 +---------------------|---------------------+
 ```
 
+Conversely, running:
+
+```
+cd /Users/brian/code/bar/.mertrc
+mert start
+```
+
+Would spin up the `.mertrc` file within the parent directory.
+
 Checkout the demo below:
 
 ![mert demo](https://cloud.githubusercontent.com/assets/659829/15803031/c0e7a9e0-2a7e-11e6-89f9-38704b28ecba.gif)
