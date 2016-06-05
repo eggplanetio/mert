@@ -1,3 +1,7 @@
+
+<p align="center"><img
+src="https://cloud.githubusercontent.com/assets/659829/15808225/1a837da0-2b27-11e6-94fc-7809d432cd4a.jpg" width="150px"></p>
+
 # mert
 
 An iTerm 3-compatible tab & pane manager.
