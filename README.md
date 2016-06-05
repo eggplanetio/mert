@@ -13,6 +13,10 @@ npm install -g mert
 mert is a simple command line tool for managing your tab & pane configurations for iTerm 3
 and iTerm 2.
 
+Checkout the demo below:
+
+![mert demo](https://cloud.githubusercontent.com/assets/659829/15803031/c0e7a9e0-2a7e-11e6-89f9-38704b28ecba.gif)
+
 ## Usage
 
 ```bash
