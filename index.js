@@ -2,8 +2,9 @@
 
 const program = require('commander');
 const fs = require('fs');
+const path = require('path');
 const clc = require('cli-color');
-const package = JSON.parse(fs.readFileSync('package.json'));
+const package = JSON.parse(fs.readFileSync(path.join(__dirname, './package.json')));
 
 program
   .version(package.version)
