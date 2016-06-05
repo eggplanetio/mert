@@ -20,8 +20,58 @@ start <projectname | path to .mertrc file>    # Start a mertrc project (defaults
 
 ## Overview
 
-mert is a simple command line tool for managing your tab & pane configurations for iTerm 3
-and iTerm 2.
+_mert_ is a simple command line tool for managing your tab & pane configurations for iTerm 3
+and iTerm 2. A little yaml config (called the `.mertrc` file) along with some JXA (Javascript +
+Applescript), you can have your iTerm environment up and running in no time.
+
+_mert_ uses a combination of a "global" file at `~/.mertrc` and/or one in your current directory to
+spin up your iTerm environment.
+
+## Examples
+
+Take the following two `.mertrc` files:
+
+#### Global Config
+```yaml
+# ~/.mertrc
+foo:
+  root: ~/code/foo
+  layout:
+    -
+      - echo "Row 1, Pane 1"
+      - echo "Row 1, Pane 2"
+    -
+      - echo "Row 2, Pane 1"
+  ```
+
+#### Local Config
+```yaml
+# /Users/brian/code/bar/.mertrc
+layout:
+  -
+    - echo "Row 1, Pane 1 in bar"
+    - echo "Row 1, Pane 2 in bar"
+  -
+    - echo "Row 2, Pane 1 in bar"
+```
+
+Running the following:
+
+```bash
+mert start foo
+```
+
+would result in the following iTerm window, each command running in `~/code/foo`:
+
+```
++-------------------------------------------+
+| "Row 1, Pane 1"     | "Row 1, Pane 2      |
+|                     |                     |
+|---------------------|---------------------|
+| "Row 2, Pane 2"     | "Row 2, Pane 2      |
+|                     |                     |
++---------------------|---------------------+
+```
 
 Checkout the demo below:
 
