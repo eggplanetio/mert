@@ -1,0 +1,7 @@
+layout:
+  foo:
+    -
+      - echo "Row 1, Pane 1"
+    -
+      - echo "Row 2, Pane 1"
+      - echo "Row 2, Pane 2"
