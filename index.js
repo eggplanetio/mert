@@ -7,8 +7,8 @@ const package = JSON.parse(fs.readFileSync('package.json'));
 
 program
   .version(package.version)
-  .option('init [global | local (default) ]', 'Create new .mertrc file locally or in home dir')
-  .option('start [projectname | path to mertrc file]', 'Start mert project')
+  .option('init <global | local>', 'Create new .mertrc file locally or in home directory (defaults to local)')
+  .option('start <projectname | path to mertrc file>', 'Start project by name or by specifying file path (defaults to .mertrc in cwd)')
   .parse(process.argv);
 
 if (program.init) {
