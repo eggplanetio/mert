@@ -15,7 +15,7 @@ and iTerm 2.
 
 ## Usage
 
-```
+```bash
 init <global | local>                         # Create new .mertrc file locally or in home dir
                                               # (defaults to local)
 
