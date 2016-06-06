@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --harmony
 
 const program = require('commander');
 const fs = require('fs');
@@ -8,8 +8,8 @@ const package = JSON.parse(fs.readFileSync(path.join(__dirname, './package.json'
 
 program
   .version(package.version)
-  .option('init <global | local>', 'Create new .mertrc file locally or in home directory (defaults to local)')
-  .option('start <projectname | path to mertrc file>', 'Start project by name or by specifying file path (defaults to .mertrc in cwd)')
+  .option('init [type]', 'Create new .mertrc file. Options: global or local')
+  .option('start [name]', 'Start project by name or by specifying file path (defaults to .mertrc in cwd)')
   .parse(process.argv);
 
 if (program.init) {
