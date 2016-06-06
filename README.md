@@ -15,11 +15,8 @@ npm install -g mert
 ## Usage
 
 ```bash
-init <global | local>                         # Create new .mertrc file locally or in home dir
-                                              # (defaults to local)
-
-start <projectname | path to .mertrc file>    # Start a mertrc project (defaults to .mertc in current
-                                              # directory)
+mert init [type]   # Create new .mertrc file. Options: global or local
+mert start [name]  # Start project by name or by specifying file path (defaults to .mertrc in cwd)
 ```
 
 ## Overview
