@@ -13,11 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai": "^3.5.0",
     "cli-color": "^1.1.0",
     "commander": "^2.9.0",
     "jxa": "eggplanetio/jxa#apply-support",
-    "mocha": "^2.5.3",
     "yamljs": "^0.2.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
   }
 }
