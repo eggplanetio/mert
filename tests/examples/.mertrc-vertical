@@ -1,0 +1,11 @@
+split_strategy: "vertical"
+layout:
+  -
+    - echo "Column 1, Pane 1"
+  -
+    - echo "Column 2, Pane 1"
+    - echo "Column 2, Pane 2"
+  -
+    - echo "Column 3, Pane 1"
+    - echo "Column 3, Pane 2"
+    - echo "Column 3, Pane 3"
