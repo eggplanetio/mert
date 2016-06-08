@@ -87,12 +87,62 @@ Checkout the demo below:
 
 ![mert demo](https://cloud.githubusercontent.com/assets/659829/15803031/c0e7a9e0-2a7e-11e6-89f9-38704b28ecba.gif)
 
-License
---------
+### Split Strategy
+By default *mert* adopts a vertical-first split strategy. This behaviour can be changed by explicitly setting the `split_strategy` option to "horizontal" in the `.mertrc` file.
+
+Take for example the following `.mertrc`:
+
+```yaml
+layout:
+  -
+    - echo "Row 1, Pane 1"
+  -
+    - echo "Row 2, Pane 1"
+    - echo "Row 2, Pane 2"
+```
+
+This would result in the following iTerm window:
+```
++-------------------------------------------+
+| "Row 1, Pane 1"                           |
+|                                           |
+|---------------------|---------------------|
+| "Row 2, Pane 2"     | "Row 2, Pane 2      |
+|                     |                     |
++---------------------|---------------------+
+```
+
+Whereas a `.mertrc` with the `split_strategy` configuration set,
+
+```yaml
+split_strategy: "horizontal"
+layout:
+  -
+    - echo "Col 1, Pane 1"
+  -
+    - echo "Col 2, Pane 1"
+    - echo "Col 2, Pane 2"
+```
+
+would produce an iTerm window like the one below:
+
+```
++---------------------|---------------------+
+| "Col 1, Pane 1"     | "Col 2, Pane 1      |
+|                     |                     |
+|                     |---------------------|
+|                     | "Col 2, Pane 2      |
+|                     |                     |
++---------------------|---------------------+
+```
+
+
+##License
+
 Released under the MIT License.
 
-Questions?
-----------
+##Questions?
+
 Brought to you by [eggplanet](http://www.eggplanet.io/).
 
 Reach out to [Brian Gonzalez](http://twitter.com/briangonzalez) for help.
