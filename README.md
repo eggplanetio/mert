@@ -146,3 +146,9 @@ Released under the MIT License.
 Brought to you by [eggplanet](http://www.eggplanet.io/).
 
 Reach out to [Brian Gonzalez](http://twitter.com/briangonzalez) for help.
+
+## Contributors
+
+- [@ghosh](https://twitter.com/_ighosh)
+- [@brianmgonzalez](https://twitter.com/brianmgonzalez)
+- [@juancaldera](#)
