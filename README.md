@@ -30,6 +30,14 @@ spin up your iTerm environment.
 
 ## Examples
 
+Mert has support for managing windows, tabs, and panes. Examples live inside of
+`./tests/examples`, so that's a great place to start:
+
+- [Panes](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-base)
+- [Tabs & Panes](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-tabs)
+- [Windows, Tabs, &
+    Panes](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-windows-and-tabs)
+
 Take the following two `.mertrc` files:
 
 #### Global Config
