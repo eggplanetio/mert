@@ -1,0 +1,16 @@
+split_strategy: "vertical"
+layout:
+  tabs:
+    -
+      layout:
+        -
+          - echo "Tab 1, Column 1"
+        -
+          - echo "Tab 1, Column 1, Pane 1"
+          - echo "Tab 1, Column 1, Pane 2"
+    -
+      layout:
+        -
+          - echo "Tab 2, Column 1"
+        -
+          - echo "Tab 2, Column 1, Pane 1"

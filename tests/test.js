@@ -19,7 +19,8 @@ describe('mertrc-error', function () {
 
 const examples = [
   'mertrc-base',
-  'mertrc-windows',
+  'mertrc-tabs',
+  'mertrc-windows-and-tabs',
 ];
 
 examples.forEach((example) => {

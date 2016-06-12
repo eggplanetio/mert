@@ -1,6 +1,6 @@
 {
   "name": "mert",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "An iTerm 3-compatible tab & pane manager.",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "cli-color": "^1.1.0",
     "commander": "^2.9.0",
     "jxa": "eggplanetio/jxa#apply-support",
+    "lodash": "^4.13.1",
     "yamljs": "^0.2.7"
   },
   "devDependencies": {
