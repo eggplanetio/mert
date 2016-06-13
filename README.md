@@ -4,7 +4,7 @@ src="https://cloud.githubusercontent.com/assets/659829/15808225/1a837da0-2b27-11
 
 # mert
 
-An iTerm 3-compatible tab & pane manager.
+An iTerm 3-compatible window, tab, and pane manager.
 
 ## Installation
 
@@ -21,8 +21,8 @@ mert start [name]  # Start project by name or by specifying file path (defaults 
 
 ## Overview
 
-_mert_ is a simple command line tool for managing your tab & pane configurations for iTerm 3
-and iTerm 2. A little yaml config (called the `.mertrc` file) along with some JXA (Javascript +
+_mert_ is a simple command line tool for managing your windows, tabs, and pane configurations for iTerm 3
+and iTerm 2. A little yaml config file (called the `.mertrc` file) along with some JXA (Javascript +
 Applescript), you can have your iTerm environment up and running in no time.
 
 _mert_ uses a combination of a "global" file at `~/.mertrc` and/or one in your current directory to

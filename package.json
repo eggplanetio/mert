@@ -1,7 +1,7 @@
 {
   "name": "mert",
-  "version": "0.5.1",
-  "description": "An iTerm 3-compatible tab & pane manager.",
+  "version": "0.5.2",
+  "description": "An iTerm 3-compatible window, tab, and pane manager.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/test.js"
