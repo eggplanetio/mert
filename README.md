@@ -30,13 +30,12 @@ spin up your iTerm environment.
 
 ## Examples
 
-Mert has support for managing windows, tabs, and panes. Examples live inside of
-`./tests/examples`, so that's a great place to start:
+_mert_ supports window, tab, and pane management. Examples live inside of
+`./tests/examples`, so that's a great place to start.
 
 - [Panes](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-base)
 - [Tabs & Panes](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-tabs)
-- [Windows, Tabs, &
-    Panes](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-windows-and-tabs)
+- [Windows, Tabs, & Panes](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-windows-and-tabs)
 
 Take the following two `.mertrc` files:
 
@@ -96,7 +95,7 @@ Checkout the demo below:
 ![mert demo](https://cloud.githubusercontent.com/assets/659829/15803031/c0e7a9e0-2a7e-11e6-89f9-38704b28ecba.gif)
 
 ### Split Strategy
-By default *mert* adopts a vertical-first split strategy. This behaviour can be changed by explicitly setting the `split_strategy` option to "horizontal" in the `.mertrc` file.
+By default *mert* adopts a vertical-first split strategy. This behavior can be changed by explicitly setting the `split_strategy` option to 'horizontal' in the `.mertrc` file.
 
 Take for example the following `.mertrc`:
 
@@ -120,7 +119,7 @@ This would result in the following iTerm window:
 +---------------------|---------------------+
 ```
 
-Whereas a `.mertrc` with the `split_strategy` configuration set,
+Whereas a `.mertrc` with the `split_strategy` configuration set, as shown here:
 
 ```yaml
 split_strategy: "vertical"
@@ -152,6 +151,12 @@ See [Tab Launch Strategy](https://github.com/eggplanetio/mert/blob/master/tests/
 and [In-Place Launch Strategy](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-launch-strategy-in_place)
 for an example.
 
+## Testing
+
+```
+npm run test
+```
+
 ##License
 
 Released under the MIT License.
@@ -160,10 +165,9 @@ Released under the MIT License.
 
 Brought to you by [eggplanet](http://www.eggplanet.io/).
 
-Reach out to [Brian Gonzalez](http://twitter.com/briangonzalez) for help.
-
 ## Contributors
 
-- [@ghosh](https://twitter.com/_ighosh)
 - [@brianmgonzalez](https://twitter.com/brianmgonzalez)
+- [@michaelmoussa](https://twitter.com/michaelmoussa)
+- [@ghosh](https://twitter.com/_ighosh)
 - [@juancaldera](#)
