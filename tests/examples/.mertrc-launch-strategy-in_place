@@ -1,0 +1,6 @@
+launch_strategy: in_place
+layout:
+  -
+    - echo "Row 1, Pane 1"
+  -
+    - echo "Row 2, Pane 1"

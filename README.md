@@ -144,6 +144,13 @@ would produce an iTerm window like the one below:
 +---------------------|---------------------+
 ```
 
+### Launch Strategy
+By default *mert* will start a new iTerm window and launch your layout into it. You can choose to launch your layout
+into a new tab, or into the current pane, instead by using the root-level `launch_strategy` option.
+
+See [Tab Launch Strategy](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-launch-strategy-tab)
+and [In-Place Launch Strategy](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-launch-strategy-in_place)
+for an example.
 
 ##License
 
