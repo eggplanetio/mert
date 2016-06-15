@@ -21,6 +21,8 @@ const examples = [
   'mertrc-base',
   'mertrc-tabs',
   'mertrc-windows-and-tabs',
+  'mertrc-launch-strategy-tab',
+  'mertrc-launch-strategy-in_place',
 ];
 
 examples.forEach((example) => {
