@@ -1,10 +1,8 @@
 
 <p align="center"><img
-src="https://cloud.githubusercontent.com/assets/659829/15808225/1a837da0-2b27-11e6-94fc-7809d432cd4a.jpg" width="150px"></p>
+src="https://cloud.githubusercontent.com/assets/659829/16184456/587485f0-3671-11e6-921a-3d9214fd0678.png"></p>
 
-# mert
-
-An iTerm 3-compatible window, tab, and pane manager.
+> An iTerm 3-compatible window, tab, and pane manager.
 
 ## Installation
 
