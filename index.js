@@ -33,5 +33,5 @@ if (program.start) {
 if (program.list) {
   const configLoader = require('./lib/config-loader.js');
   const globalConfig = configLoader.loadGlobal();
-  console.log(Object.keys(globalConfig).join('\n'));
+  return console.log(Object.keys(globalConfig).join('\n'));
 }
