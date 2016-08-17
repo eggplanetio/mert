@@ -10,6 +10,7 @@ program
   .version(package.version)
   .option('init [type]', 'Create new .mertrc file. Options: global or local')
   .option('start [name]', 'Start project by name or by specifying file path (defaults to .mertrc in cwd)')
+  .option('list', 'List projects defined in ~/.mertrc')
   .parse(process.argv);
 
 if (program.init) {
@@ -29,3 +30,8 @@ if (program.start) {
   return launcher.launch(config)
 }
 
+if (program.list) {
+  const configLoader = require('./lib/config-loader.js');
+  const globalConfig = configLoader.loadGlobal();
+  return console.log(Object.keys(globalConfig).join('\n'));
+}
