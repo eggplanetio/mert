@@ -24,7 +24,7 @@ if (program.start) {
 
   var projectName = program.start === true ? null : program.start;
   console.log(clc.green(`Starting ${ projectName || 'local' } project.`));
-  console.log(clc.green(`Please wait until all panes have intialized!`));
+  console.log(clc.green(`Please wait until all panes have initialized!`));
 
   const config = configLoader.load(projectName);
   return launcher.launch(config)
