@@ -6,6 +6,8 @@ src="https://cloud.githubusercontent.com/assets/659829/16184456/587485f0-3671-11
 
 ## Installation
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eggplanetio/mert.svg)](https://greenkeeper.io/)
+
 ```
 npm install -g mert
 ```
