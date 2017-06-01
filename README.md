@@ -155,11 +155,11 @@ for an example.
 npm run test
 ```
 
-##License
+## License
 
 Released under the MIT License.
 
-##Questions?
+## Questions?
 
 Brought to you by [eggplanet](http://www.eggplanet.io/).
 
