@@ -1,6 +1,6 @@
 {
   "name": "mert",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "An iTerm 3-compatible window, tab, and pane manager.",
   "main": "index.js",
   "scripts": {
