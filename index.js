@@ -33,5 +33,12 @@ if (program.start) {
 if (program.list) {
   const configLoader = require('./lib/config-loader.js');
   const globalConfig = configLoader.loadGlobal();
-  return console.log(Object.keys(globalConfig).join('\n'));
+  let list = Object.keys(globalConfig).join('\n');
+  let localMertrc = path.join(process.cwd(), '.mertrc');
+  let hasLocalMertrc = fs.existsSync(localMertrc);
+  if (hasLocalMertrc) {
+    const localConfig = configLoader.load(localMertrc);
+    list += '\n' + Object.keys(localConfig).join('\n');
+  }
+  return console.log(list)
 }
