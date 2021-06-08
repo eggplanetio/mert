@@ -1,0 +1,11 @@
+profile: Default
+layout:
+  -
+    - echo "Row 1, Pane 1"
+  -
+    - echo "Row 2, Pane 1"
+    - echo "Row 2, Pane 2"
+  -
+    - echo "Row 3, Pane 1"
+    - echo "Row 3, Pane 2"
+    - echo "Row 3, Pane 3"

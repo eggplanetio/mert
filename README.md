@@ -149,6 +149,22 @@ See [Tab Launch Strategy](https://github.com/eggplanetio/mert/blob/master/tests/
 and [In-Place Launch Strategy](https://github.com/eggplanetio/mert/blob/master/tests/examples/.mertrc-launch-strategy-in_place)
 for an example.
 
+### Profiles
+By default *mert* will use the `Default` iTerm profile. You can use a different profile for your layout
+by adding the root-level `profile` option.
+
+To use a different profile, set the `profile` configuration on the `.mertrc` file:
+
+```yaml
+profile: "MyProfile"
+layout:
+  -
+    - echo "Col 1, Pane 1"
+  -
+    - echo "Col 2, Pane 1"
+    - echo "Col 2, Pane 2"
+```
+
 ## Testing
 
 ```
