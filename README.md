@@ -4,6 +4,8 @@ src="https://cloud.githubusercontent.com/assets/659829/16184456/587485f0-3671-11
 
 > An iTerm 3-compatible window, tab, and pane manager.
 
+![npm badge](https://badge.fury.io/js/mert.svg)
+
 ## Installation
 
 ```
